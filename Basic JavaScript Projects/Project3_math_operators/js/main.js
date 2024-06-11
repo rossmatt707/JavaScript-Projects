@@ -56,13 +56,13 @@ function negation_Function() { //defines encapsulated function
 }
 
 function increment_Function() { //defines encapsulated function
-    var increment = 3; //defining Math 8 variable
+    var increment = 3;
     increment++; // ++ increases the variable by one increment (+1)
     document.getElementById("Math8").innerHTML = increment;
 }
 
 function decrement_Function() { //defines encapsulated function
-    var decrement = 8; //defining Math9 variable
+    var decrement = 8;
     decrement--; // -- decreases the variable by one increment (-1)
     document.getElementById("Math9").innerHTML = decrement;
 }
