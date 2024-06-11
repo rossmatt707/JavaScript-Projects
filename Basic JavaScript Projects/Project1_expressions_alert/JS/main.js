@@ -5,6 +5,12 @@ document.write(Sent1 + Sent2); //concenating the two prev defined variables.
 document.write(1+53); //writing an expression
 
 function My_First_Function() { //This is defining the function
-    var str = "this is the button text!";
-    document.getElementId("Button_Text").innerHTML = str;
+    var str = "You clicked the button!";
+    document.getElementById("Button_Click").innerHTML = str;
 }
+
+function My_Second_Function() { //This is defining the function
+    var str = "You pressed a key.";
+    document.getElementById("Button_Key").innerHTML = str;
+}
+
