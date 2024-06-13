@@ -41,9 +41,7 @@ document.write("<br>"); //Line Break
 document.write(5 > 15 || 55 > 3); //||  connects the two comparisons with an "or" so if either one is true a true will be returned.
 document.write("<br>"); //Line Break
 document.write(1 > 2 || 58 > 500); //||  connects the two comparisons with an "or" so if either one is true a true will be returned.
-
-
-
+document.write("<br>"); //Line Break
 
 function my_function1() {
     document.getElementById("Test1").innerHTML = 0/0; //Attempts to divide zero by zero which returns a null value since this is impossible
