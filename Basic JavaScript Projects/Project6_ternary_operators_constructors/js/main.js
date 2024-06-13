@@ -50,6 +50,13 @@ function myFunction3() {
     " manufactured in " + Max.Vehicle_Year;
 }
 
+function OuterAdding() { //Outer function.
+    function InnerAdding() { //Nested function
+        document.getElementById("AddingOne").innerHTML = "You Get Two!" //Text replacing text connected to matching ID
+    }
+    InnerAdding(); //Calling the nested function.
+}
+    
 function countFunction () { //Defining the function
     var Starting_point = 10; //Creates and defines a variable
     var currentCount = setInterval(function MyCounter() { //Creates the variable currentCount and uses the setInterval function to execute the function MyCounter every 500 miliseconds.
