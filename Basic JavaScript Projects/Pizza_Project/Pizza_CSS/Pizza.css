@@ -1,0 +1,103 @@
+body {
+    background-color: firebrick;
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: firebrick;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: firebrick;
+    margin-left: 10px
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: firebrick;
+}
+#menuBG {
+    width: 815px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: yellow;
+}
+
+#frmMenu {
+    width: 900px;
+    height: 400px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    display:inline-flex;
+}
+
+.left {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-left: 0px
+}
+
+.center {
+    width: 25%;
+    height: 200px;
+    float:left;   
+}
+
+.center2 {
+    width: 25%;
+    height: 200px;
+    float:left;
+}
+
+.right {
+    width: 25%;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: black;
+    border-color: black;
+}
+
+.buttonWrap {
+    justify-content: center;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+
+#btnOrder:hover {
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: firebrick;
+    border-color: firebrick;
+}
+
