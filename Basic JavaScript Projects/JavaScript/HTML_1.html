@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="JavaScript/JavaScript_1.js" async type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>What pet would you want out of these?</h1>
+        <ul>
+            <li>Dog</li>
+            <li>Cat</li>
+            <li>Hampster</li>
+            <li>Tarantula</li>
+            <li>Dolphin</li>
+            <li>Snake</li>
+            <li>Antarctic Blue Whale</li>
+        </ul>
+        <h3>Please select now</h3>
+
+        <input id="Pet_Input" type="text">
+        <button onclick="Pet_Function()">Submit Pet</button>
+        <p id="Output"></p>
+        <br>
+        <br>
+        <h1 class="Clicker">I'm going to need you to say the alphabet backwards for me.</h1>
+        <h3 class="Clicker">????????</h3>
+        <button onclick="Hello_World_Function()">Click me!</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <canvas id="FirstCanvas" width="500" height="250" style="border:20px dotted rgb(238, 0, 0);"></canvas>
+        <script>
+            var canvas = document.getElementById("FirstCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(250, 125, 100, 0, 20 * Math.PI);
+            ctx.stroke();
+        </script>
+        <br>
+        <br>
+        <canvas id="SecondCanvas" width="200" height="150" style="border:20px solid rgb(255, 0, 0);"></canvas>
+        <script>
+            var canvas = document.getElementById("SecondCanvas");
+            var ctx = canvas.getContext("2d");
+
+            // Create Gradient
+            var my_gradient = ctx.createLinearGradient(0, 0, 170, 0);
+            my_gradient.addColorStop(0, "black");
+            my_gradient.addColorStop(0.5, "red");
+            my_gradient.addColorStop(1, "white");
+
+            // Fill Rectangle
+            ctx.fillStyle = my_gradient;
+            ctx.fillRect(20, 20, 150, 100);
+        </script>
+    </body>
+</html>

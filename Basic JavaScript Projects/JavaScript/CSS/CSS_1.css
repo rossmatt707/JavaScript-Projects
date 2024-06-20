@@ -1,0 +1,49 @@
+.FormContainer {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: medium;
+    line-height: 1.6;
+    color: rebeccapurple;
+    text-align: left;
+    max-width: 100%;
+}
+
+.FormInputContainer {
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.FormEntry {
+    display: block;
+    width:100%;
+    font-weight: medium;
+    line-height: 1.6;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 1;
+    color: rebeccapurple
+
+}
+
+.FormBtn {
+    padding-top: 1;
+    display: block;
+    font-weight: lighter;
+    line-height: 1.6;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 1;
+    color: rgb(0, 0, 0)
+}
+
+.FormBtn:hover {
+    opacity: 90%;
+}

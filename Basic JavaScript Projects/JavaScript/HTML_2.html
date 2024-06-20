@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="CSS/CSS_1.css" rel="stylesheet">
+        <script src="JS/JavaScript_2.js" type="text/javascript"></script>
+    </head>
+    <title>Simple Contact Form</title>
+    <body>
+    <div class="FormContainer">
+        <form name="contactForm" onsubmit="return formValidator()" novalidate>
+            <div class="EntryContainer">
+                <label for="Name" class="FormLabel">Your name here</label>
+                <div class="FormInputContainer">
+                    <input type="text" id="Name" name="Name" class="FormEntry" required>
+                </div>
+            </div>
+            <div class="EntryContainer">
+                <label for="Email" class="FormLabel">Your email here</label>
+                    <div class="FormInputContainer">
+                        <input type="email" id="Email" name="Email" class="FormEntry" required>
+                    </div>
+            </div>
+
+            <div class="EntryContainer">
+                <label for="Message" class="FormLabel">Your message here</label>
+                    <div class="FormInputContainer">
+                        <textarea id="message" name="Message" class="FormEntry" rows="6" maxlength="3000" required></textarea>        
+                    </div>
+            </div>
+        <br>
+        <div class="EntryContainer">
+            <button type="submit" id="FormButton" class="FormBtn">Send Message</button>
+        </div>
+    </form>
+    </div>
+
+    </body>
+</html>
