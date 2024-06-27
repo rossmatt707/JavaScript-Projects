@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- Import the jQuery library -->
+    </head>
+    <script>
+        $(document).ready(function() { // When the document is ready
+            $("html").append( // Append the following HTML to the body
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Wicked Witch</h1>\
+                            <h2> Water </h2>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+
+            );
+            $("#2").css({"color": "red" , "font-size": "200%"}); // Change the color and font size of the second paragraph
+            $('h1').css({"color": "green", "font-size": "300%"}); // Change the color and font size of the h1 element
+            $('h2').hide(); // Hide the h2 element
+            $("#3").click(function() { // When the third paragraph is clicked
+                $('h1').replaceWith("<h1>I'm melting!</h1>").css; // Replace the h1 element with a new h1 element
+                $('h1').fadeOut( 2000 ); // Fade out the h1 element
+                $('h2').fadeIn( 2000 ); // Fade in the h2 element
+                $('h2').css({"color": "blue", "font-size": "300%"}); // Change the color and font size of the h2 element
+            });
+        });
+    </script>
+</html>
