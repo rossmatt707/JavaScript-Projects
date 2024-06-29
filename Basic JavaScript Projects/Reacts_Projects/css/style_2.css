@@ -1,0 +1,12 @@
+.content {
+    opacity: 0;
+}
+
+.content.loaded {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+body {
+    background-color: red;  
+}
