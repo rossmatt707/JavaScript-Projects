@@ -1,16 +1,22 @@
 ### **Javascript Projects**
 
- Sample of websites I designed using HTML and CSS.
+ Sample of websites I designed using HTML, CSS and Javascript.
  
- [Project 1](link)
+ [Pizza Project](https://github.com/rossmatt707/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Pizza_Project)
 
- [Project 2](link)
+ [Tic-tac-toe](https://github.com/rossmatt707/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/TicTacToe)
 
- ## **Project 1**
+[Calculator Project](https://github.com/rossmatt707/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator)
+
+ ## **Pizza Project**
  
-Content
+A website that allows users to order pizzas online, complete with customization options for toppings and sizes, created using HTML, CSS, and JavaScript.
 
- ## **Project 2**
+ ## **Tic-tac-toe**
 
-Content
+An interactive tic-tac-toe game featuring cats and dogs, built with HTML, CSS, and JavaScript.
+
+ ## **Calculator Project**
+
+A simple calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division using HTML, CSS, and JavaScript.
 
