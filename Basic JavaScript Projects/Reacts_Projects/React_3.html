@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>React 3</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+    <script>
+        document.body.classList.add('fade-out');
+    </script>
+        <h1>React 3</h1>
+        <div id="JSX"></div>
+        <script type="text/babel">
+            class Greeting extends React.Component {
+                render() {
+                    return <h1>Now thats what I call a pizza pie! Aaaaaay!</h1>;
+                    }
+                }
+        ReactDOM.render(<Greeting />, document.getElementById('JSX'))
+        </script>
+    
+    </body>
+</html>
